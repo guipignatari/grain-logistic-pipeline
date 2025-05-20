@@ -44,9 +44,7 @@ Este repositório apresenta um pipeline de dados desenvolvido no **Databricks**,
 
 Você pode visualizar o notebook completo publicado no Databricks pelo link abaixo:
 
-🔗 [Visualizar notebook no Databricks (público)](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec90...)
-
-> Este link ficará disponível por **6 meses**.
+🔗 [Visualizar notebook no Databricks](https://dbc-8de1bf35-2e66.cloud.databricks.com/editor/notebooks/1382068348702030?o=3509327359834938)
 
 ---
 
