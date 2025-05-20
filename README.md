@@ -1,5 +1,4 @@
-%md
-# 🛠️ Pipeline de Dados - Grain Logistic Shipping (Medallion Architecture)
+# 🛠️ Data Pipeline - Grain Logistic Shipping (Medallion Architecture)
 
 Este repositório apresenta um pipeline de dados desenvolvido no **Databricks**, estruturado com a arquitetura em camadas **Bronze**, **Silver** e **Gold**, para tratar e analisar dados logísticos da Grain Logistic.
 
