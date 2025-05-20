@@ -104,6 +104,5 @@ Esta seção detalha o dicionário de dados original e os campos derivados criad
 
 ## 👤 Autor
 
-**Seu Nome**  
 LinkedIn: [linkedin.com/in/guilhermepignatari](https://linkedin.com/in/guilhermepignatari)
 GitHub: [github.com/guipignatari](https://github.com/guipignatari)
