@@ -46,7 +46,7 @@ Você pode visualizar o notebook completo publicado no Databricks pelo link abai
 
 🔗 [Visualizar notebook no Databricks](https://dbc-8de1bf35-2e66.cloud.databricks.com/editor/notebooks/1382068348702030?o=3509327359834938)
 
-🔹 Caso o link esteja indisponível, o notebook está disponivel nos arquivos do projeto.
+🔹 Caso o link esteja indisponível, o notebook se encontra nos arquivos do projeto.
 
 ---
 
