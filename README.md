@@ -83,9 +83,9 @@ Este pipeline está preparado para consumo analítico por ferramentas como o **P
 | **% Envios por Categoria de Entrega**         | Proporção percentual de envios nas categorias lenta, normal e expressa.                     |
 | **Envios por Método de Envio**                | Volume de envios dividido pelos métodos (PAC, Sedex e Transportadora).                      |
 
-🔹 O arquivo completo do relatório Power BI (`.pbix`) está disponível para download na pasta do projeto ou no link abaixo:
+🔹 O arquivo completo do relatório Power BI (`grain_logistic_relatorio.pbix`) está disponível para download na pasta do projeto ou no link abaixo:
 
-🔗 [Baixar arquivo Power BI](https://github.com/guipignatari/grain-logistic-pipeline/blob/main/file_power_bi/grain_logistic_relatorio.pbix)
+🔗 [Baixar arquivo Power BI](https://github.com/guipignatari/grain-logistic-pipeline/blob/main/power_bi/grain_logistic_relatorio.pbix)
 
 ---
 
