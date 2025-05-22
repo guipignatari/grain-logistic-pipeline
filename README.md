@@ -85,7 +85,7 @@ Este pipeline está preparado para consumo analítico por ferramentas como o **P
 
 🔹 O arquivo completo do relatório Power BI (`.pbix`) está disponível para download:
 
-- [Baixar arquivo Power BI](./Grain_Logistic_Shipping_Report.pbix)
+🔗 [Baixar arquivo Power BI](https://github.com/guipignatari/grain-logistic-pipeline/blob/main/grain_logistic_relatorio.pbix)
 
 ---
 
