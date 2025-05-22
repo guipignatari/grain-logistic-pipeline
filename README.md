@@ -52,7 +52,40 @@ Você pode visualizar o notebook completo publicado no Databricks pelo link abai
 
 ## 📊 Possível Integração
 
-Este pipeline está preparado para consumo analítico por ferramentas como o **Power BI**, a partir da camada **Gold**, via conexão com Delta Lake ou exportação para outros formatos.
+Este pipeline está preparado para consumo analítico por ferramentas como o **Power BI**, a partir da camada **Gold**, via conexão com Delta Lake ou exportação para outros formatos, como vamos ver em seguida.
+
+---
+
+## 🛠️ Conexão Databricks to PowerBi
+
+* Step um: No Power BI Desktop, acesse **Obter Dados** → **Azure** → **Azure Databricks** para utilizar o conector nativo e importar seus dados diretamente do Databricks.
+
+![image](https://github.com/user-attachments/assets/7f2583a0-735c-4fef-b34f-b8719f50415b)
+
+* Step dois: Na janela de conexão, cole o **Nome do Host do Servidor** e o **Caminho HTTP** do seu SQL Warehouse; em **Catálogo** informe `logistics_catalog` e em **Banco de Dados** `analytics`.
+
+![image](https://github.com/user-attachments/assets/63dd9574-db56-4459-b205-ed0bc34ac11f)
+
+* Step três: No painel **Navegador**, expanda o host Databricks, abra o catálogo `logistics_catalog` e o schema `analytics`, selecione a tabela `gold_grain_logistic_metrics` e clique em **Carregar**.
+
+![image](https://github.com/user-attachments/assets/9bc5534e-f805-4859-b654-081378880092)
+
+🔹 Apartir desse ponto, você consegue realizar diversas operações no PowerBi e criar Gráficos e Relatórios como preferir.
+
+* Segue alguns exemplos:
+
+![image](https://github.com/user-attachments/assets/ccda28ef-fbec-462b-9ab6-0d1d2307c1dd)
+
+| Gráfico                                       | Descrição                                                                                   |
+|-----------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Contagem de Envios por Estado**             | Quantidade total de envios em cada estado, permitindo comparar volumes regionais.           |
+| **Evolução Diária de Envios por Importância** | Tendência de envios ao longo do mês, empilhada por níveis de importância (low/medium/high). |
+| **% Envios por Categoria de Entrega**         | Proporção percentual de envios nas categorias lenta, normal e expressa.                     |
+| **Envios por Método de Envio**                | Volume de envios dividido pelos métodos (PAC, Sedex e Transportadora).                      |
+
+🔹 O arquivo completo do relatório Power BI (`.pbix`) está disponível para download:
+
+- [Baixar arquivo Power BI](./Grain_Logistic_Shipping_Report.pbix)
 
 ---
 
