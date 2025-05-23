@@ -2,6 +2,8 @@
 
 Este repositório apresenta um pipeline de dados desenvolvido no **Databricks**, estruturado com a arquitetura em camadas **Bronze**, **Silver** e **Gold**, para tratar e analisar dados logísticos da Grain Logistic.
 
+![image](https://github.com/user-attachments/assets/6dda9bf6-bfac-4445-b95c-e2bdb4948e59)
+
 ---
 
 ## 🚀 Stack Utilizada
